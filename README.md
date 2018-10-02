@@ -2,7 +2,7 @@
 PyTorch implementation of COCOB optimizer in [Training Deep Networks without Learning Rates
 Through Coin Betting](http://papers.nips.cc/paper/6811-training-deep-networks-without-learning-rates-through-coin-betting) [1]
 
-# Usage
+## Usage
 1. Put cocob_bp.py in YOUR_PYTHON_PATH/site-packages/torch/optim.                                                     
 2. Open YOUR_PYTHON_PATH/site-packages/torch/optim/\_\_init\_\_.py add the following code:                                
 ```                                                                                                                   
@@ -18,5 +18,5 @@ optimizer.step()
 ```
 Implemented by Huidong Liu
 
-# Reference
+## Reference
 [1] Francesco Orabona and Tatiana Tommasi, Training Deep Networks without Learning Rates Through Coin Betting, NIPS 2017. 
